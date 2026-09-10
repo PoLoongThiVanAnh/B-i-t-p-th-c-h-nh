@@ -1,0 +1,35 @@
+tr.head th {
+    font-size: 25px;
+    color: rgb(34, 207, 207);
+}
+
+table td {
+    color: rgb(96, 5, 201);
+    font-size: 14px;
+}
+
+table {
+    margin: 0 auto;
+    /* căn toàn bộ khối bảng ở giữa */
+}
+
+
+/* Khi nhấn vào dòng 2 (sinh viên 1) -> Đổi màu vàng */
+
+table tr:nth-child(2):active {
+    background-color: yellow;
+}
+
+
+/* Khi nhấn vào dòng 3 (sinh viên 2) -> Đổi màu xanh lá */
+
+table tr:nth-child(3):active {
+    background-color: lightgreen;
+}
+
+
+/* Khi nhấn vào dòng 4 (sinh viên 3) -> Đổi màu hồng */
+
+table tr:nth-child(4):active {
+    background-color: pink;
+}
