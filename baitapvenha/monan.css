@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.tieu-de-trang {
+    text-align: center;
+    color: #31b0d5;
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+.khung-chinh {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 15px;
+}
+
+.cot-danh-muc {
+    width: 180px;
+    background: #fff;
+    padding: 10px 0;
+    border-radius: 4px;
+}
+
+.muc-danh-muc {
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #666;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.muc-danh-muc.dang-chon {
+    color: #d9534f;
+}
+
+.danh-sach-quan {
+    display: flex;
+    gap: 15px;
+    flex: 1;
+}
+
+.the-quan {
+    background: #fff;
+    border-radius: 4px;
+    overflow: hidden;
+    flex: 1;
+    border: 1px solid #eee;
+}
+
+.the-quan img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+}
+
+.noi-dung-quan {
+    padding: 10px;
+}
+
+.noi-dung-quan h3 {
+    font-size: 13px;
+    color: #333;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.dia-chi {
+    font-size: 11px;
+    color: #999;
+    margin: 5px 0 10px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.binh-luan {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding-top: 8px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.anh-dai-dien {
+    width: 24px;
+    height: 24px;
+    background-color: #ccc;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.binh-luan p {
+    font-size: 11px;
+    color: #666;
+    line-height: 1.2;
+}
