@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.parent {
+    position: relative;
+    background-color: #bdc91c;
+    padding: 10px 15px 120px 15px;
+    width: 100%;
+}
+
+.danh-sach-hop {
+    display: flex;
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.the-con {
+    position: relative;
+    width: 135px;
+    background-color: #fff;
+}
+
+.the-con .header {
+    padding: 4px 6px;
+    font-size: 13px;
+    color: #000;
+}
+
+.the-con1 .header {
+    background-color: #e60000;
+}
+
+.the-con2 .header {
+    background-color: #a6e22e;
+}
+
+
+/* Xanh lá */
+
+.the-con3 .header {
+    background-color: #00a2ed;
+}
+
+
+/* Xanh dương */
+
+.the-con4 .header {
+    background-color: #d8117d;
+}
+
+.khung-anh {
+    position: relative;
+    width: 100%;
+    height: 120px;
+}
+
+.khung-anh img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.the-sale {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    background-color: #e60000;
+    color: #fff;
+    padding: 3px 6px;
+    font-size: 13px;
+    font-weight: bold;
+}

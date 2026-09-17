@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Header */
+
+.header {
+    padding: 15px 50px;
+}
+
+.logo {
+    display: inline-block;
+    font-size: 26px;
+    font-weight: bold;
+    width: 49%;
+}
+
+.logo span {
+    color: #e7ab3c;
+}
+
+.icons {
+    display: inline-block;
+    width: 50%;
+    text-align: right;
+    font-size: 18px;
+}
+
+.nav {
+    background: #c89393;
+    padding: 0 50px;
+}
+
+.nav-left {
+    display: inline-block;
+    background: #1e1e1e;
+    color: #fff;
+    padding: 15px 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.menu {
+    display: inline-block;
+    list-style: none;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 20px;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.menu a:hover {
+    color: #e7ab3c;
+}
+
+.path {
+    padding: 15px 50px;
+    font-size: 13px;
+    color: #888;
+}
+
+.path a {
+    color: #b7a0e0;
+    text-decoration: none;
+}
+
+.list {
+    padding: 20px 50px;
+}
+
+.card {
+    display: inline-block;
+    width: 30%;
+    margin: 1%;
+    text-align: center;
+    vertical-align: top;
+}
+
+.img {
+    background: #f6c6c6;
+    height: 300px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.img img {
+    width: 100%;
+    height: 100%;
+}
+
+.sale {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #e7ab3c;
+    color: #fff;
+    font-size: 11px;
+    padding: 3px 8px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.cat {
+    font-size: 11px;
+    color: #b2b2b2;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.title {
+    font-size: 14px;
+    color: #c98a18;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #e7ab3c;
+}
+
+.footer {
+    background: #222;
+    color: #ccc;
+    font-size: 13px;
+    margin-top: 40px;
+}
+
+.footer-main {
+    padding: 30px 50px;
+}
+
+.col {
+    display: inline-block;
+    width: 32%;
+    vertical-align: top;
+}
+
+.footer .logo {
+    color: #fff;
+    font-size: 22px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.col h4 {
+    color: #fff;
+    margin-bottom: 12px;
+}
+
+.col p {
+    margin-bottom: 8px;
+}
